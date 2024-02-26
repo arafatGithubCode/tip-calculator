@@ -1,0 +1,33 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 40%;
+    margin: 5rem auto 0;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3), 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+.parcentage span {
+    font-size: 1.4rem;
+    padding: 2px 30px;
+    background-color: slategray;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+.parcentage #tip {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+}
+#total {
+    font-size: 1.2rem;
+}
+#result {
+    font-size: 1.5rem;
+    font-weight: 400;
+}

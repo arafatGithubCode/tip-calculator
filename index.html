@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip calculator practice</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container rounded p-3">
+        <h1 class="text-center">Tip Calculator</h1>
+        <p class="pt-2">Enter the bill amount and tip percentage to calculate the total.</p>
+        <label class="form-label" for="bill">Bill amount:</label>
+        <input class="form-control" type="number" placeholder="Enter Bill" id="bill">
+        <label class="form-label pt-3" for="tip">Tip percentage:</label>
+        <div class="parcentage d-flex justify-content-between align-items-center mb-2">
+            <input class="form-control" type="number" id="tip" placeholder="Enter tip (Optional)">
+            <span>%</span>
+        </div>
+        <button class="btn btn-success d-block w-100 my-3">Calculate</button>
+        <span id="total">Total: </span><span id="result">0.00</span>
+    </div>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
